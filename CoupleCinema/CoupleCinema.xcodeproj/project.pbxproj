@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302D2265F3733B3BED3E508F /* libPods-CoupleCinema.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C53F864BE6D9552F5C2FFBF /* libPods-CoupleCinema.a */; };
+		49132A57235EEE9A0049CC3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49132A56235EEE9A0049CC3C /* AppDelegate.m */; };
+		49132A5A235EEE9A0049CC3C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49132A59235EEE9A0049CC3C /* SceneDelegate.m */; };
+		49132A60235EEE9A0049CC3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49132A5E235EEE9A0049CC3C /* Main.storyboard */; };
+		49132A63235EEE9A0049CC3C /* CoupleCinema.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49132A61235EEE9A0049CC3C /* CoupleCinema.xcdatamodeld */; };
+		49132A65235EEE9A0049CC3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49132A64235EEE9A0049CC3C /* Assets.xcassets */; };
+		49132A68235EEE9A0049CC3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49132A66235EEE9A0049CC3C /* LaunchScreen.storyboard */; };
+		49132A6B235EEE9A0049CC3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49132A6A235EEE9A0049CC3C /* main.m */; };
+		49132A75235EEE9B0049CC3C /* CoupleCinemaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49132A74235EEE9B0049CC3C /* CoupleCinemaTests.m */; };
+		49132A80235EEE9B0049CC3C /* CoupleCinemaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49132A7F235EEE9B0049CC3C /* CoupleCinemaUITests.m */; };
+		49132A91235EEECC0049CC3C /* SignInVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49132A90235EEECC0049CC3C /* SignInVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49132A71235EEE9B0049CC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49132A4A235EEE9A0049CC3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49132A51235EEE9A0049CC3C;
+			remoteInfo = CoupleCinema;
+		};
+		49132A7C235EEE9B0049CC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49132A4A235EEE9A0049CC3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49132A51235EEE9A0049CC3C;
+			remoteInfo = CoupleCinema;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49132A52235EEE9A0049CC3C /* CoupleCinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoupleCinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49132A55235EEE9A0049CC3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49132A56235EEE9A0049CC3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49132A58235EEE9A0049CC3C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		49132A59235EEE9A0049CC3C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		49132A5F235EEE9A0049CC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49132A62235EEE9A0049CC3C /* CoupleCinema.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoupleCinema.xcdatamodel; sourceTree = "<group>"; };
+		49132A64235EEE9A0049CC3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49132A67235EEE9A0049CC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49132A69235EEE9A0049CC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49132A6A235EEE9A0049CC3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49132A70235EEE9B0049CC3C /* CoupleCinemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoupleCinemaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49132A74235EEE9B0049CC3C /* CoupleCinemaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoupleCinemaTests.m; sourceTree = "<group>"; };
+		49132A76235EEE9B0049CC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49132A7B235EEE9B0049CC3C /* CoupleCinemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoupleCinemaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49132A7F235EEE9B0049CC3C /* CoupleCinemaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoupleCinemaUITests.m; sourceTree = "<group>"; };
+		49132A81235EEE9B0049CC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49132A8F235EEECC0049CC3C /* SignInVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInVC.h; sourceTree = "<group>"; };
+		49132A90235EEECC0049CC3C /* SignInVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInVC.m; sourceTree = "<group>"; };
+		4C53F864BE6D9552F5C2FFBF /* libPods-CoupleCinema.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoupleCinema.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE37B0F657779A201752939 /* Pods-CoupleCinema.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoupleCinema.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoupleCinema/Pods-CoupleCinema.release.xcconfig"; sourceTree = "<group>"; };
+		742F8A36FDD7E57F53999D03 /* Pods-CoupleCinema.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoupleCinema.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoupleCinema/Pods-CoupleCinema.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49132A4F235EEE9A0049CC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D2265F3733B3BED3E508F /* libPods-CoupleCinema.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49132A6D235EEE9B0049CC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49132A78235EEE9B0049CC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49132A49235EEE9A0049CC3C = {
+			isa = PBXGroup;
+			children = (
+				49132A54235EEE9A0049CC3C /* CoupleCinema */,
+				49132A73235EEE9B0049CC3C /* CoupleCinemaTests */,
+				49132A7E235EEE9B0049CC3C /* CoupleCinemaUITests */,
+				49132A53235EEE9A0049CC3C /* Products */,
+				F5D0414607C01D483AB20AB4 /* Pods */,
+				57504ABDC34C2654BDD11C7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49132A53235EEE9A0049CC3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49132A52235EEE9A0049CC3C /* CoupleCinema.app */,
+				49132A70235EEE9B0049CC3C /* CoupleCinemaTests.xctest */,
+				49132A7B235EEE9B0049CC3C /* CoupleCinemaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49132A54235EEE9A0049CC3C /* CoupleCinema */ = {
+			isa = PBXGroup;
+			children = (
+				49132A8E235EEEB60049CC3C /* SignUp */,
+				49132A8D235EEEAE0049CC3C /* SignIn */,
+				49132A55235EEE9A0049CC3C /* AppDelegate.h */,
+				49132A56235EEE9A0049CC3C /* AppDelegate.m */,
+				49132A58235EEE9A0049CC3C /* SceneDelegate.h */,
+				49132A59235EEE9A0049CC3C /* SceneDelegate.m */,
+				49132A5E235EEE9A0049CC3C /* Main.storyboard */,
+				49132A64235EEE9A0049CC3C /* Assets.xcassets */,
+				49132A66235EEE9A0049CC3C /* LaunchScreen.storyboard */,
+				49132A69235EEE9A0049CC3C /* Info.plist */,
+				49132A6A235EEE9A0049CC3C /* main.m */,
+				49132A61235EEE9A0049CC3C /* CoupleCinema.xcdatamodeld */,
+			);
+			path = CoupleCinema;
+			sourceTree = "<group>";
+		};
+		49132A73235EEE9B0049CC3C /* CoupleCinemaTests */ = {
+			isa = PBXGroup;
+			children = (
+				49132A74235EEE9B0049CC3C /* CoupleCinemaTests.m */,
+				49132A76235EEE9B0049CC3C /* Info.plist */,
+			);
+			path = CoupleCinemaTests;
+			sourceTree = "<group>";
+		};
+		49132A7E235EEE9B0049CC3C /* CoupleCinemaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49132A7F235EEE9B0049CC3C /* CoupleCinemaUITests.m */,
+				49132A81235EEE9B0049CC3C /* Info.plist */,
+			);
+			path = CoupleCinemaUITests;
+			sourceTree = "<group>";
+		};
+		49132A8D235EEEAE0049CC3C /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				49132A94235EEFB70049CC3C /* Models */,
+				49132A93235EEFAD0049CC3C /* View */,
+				49132A92235EEF740049CC3C /* Controller */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		49132A8E235EEEB60049CC3C /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		49132A92235EEF740049CC3C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49132A8F235EEECC0049CC3C /* SignInVC.h */,
+				49132A90235EEECC0049CC3C /* SignInVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49132A93235EEFAD0049CC3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49132A94235EEFB70049CC3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57504ABDC34C2654BDD11C7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C53F864BE6D9552F5C2FFBF /* libPods-CoupleCinema.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5D0414607C01D483AB20AB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				742F8A36FDD7E57F53999D03 /* Pods-CoupleCinema.debug.xcconfig */,
+				4FE37B0F657779A201752939 /* Pods-CoupleCinema.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49132A51235EEE9A0049CC3C /* CoupleCinema */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49132A84235EEE9B0049CC3C /* Build configuration list for PBXNativeTarget "CoupleCinema" */;
+			buildPhases = (
+				59AB21DA4430D34A8743F57B /* [CP] Check Pods Manifest.lock */,
+				49132A4E235EEE9A0049CC3C /* Sources */,
+				49132A4F235EEE9A0049CC3C /* Frameworks */,
+				49132A50235EEE9A0049CC3C /* Resources */,
+				0C595FE3C7673B4413612A3F /* [CP] Embed Pods Frameworks */,
+				2926005211F78694316C538D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoupleCinema;
+			productName = CoupleCinema;
+			productReference = 49132A52235EEE9A0049CC3C /* CoupleCinema.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49132A6F235EEE9B0049CC3C /* CoupleCinemaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49132A87235EEE9B0049CC3C /* Build configuration list for PBXNativeTarget "CoupleCinemaTests" */;
+			buildPhases = (
+				49132A6C235EEE9B0049CC3C /* Sources */,
+				49132A6D235EEE9B0049CC3C /* Frameworks */,
+				49132A6E235EEE9B0049CC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49132A72235EEE9B0049CC3C /* PBXTargetDependency */,
+			);
+			name = CoupleCinemaTests;
+			productName = CoupleCinemaTests;
+			productReference = 49132A70235EEE9B0049CC3C /* CoupleCinemaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49132A7A235EEE9B0049CC3C /* CoupleCinemaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49132A8A235EEE9B0049CC3C /* Build configuration list for PBXNativeTarget "CoupleCinemaUITests" */;
+			buildPhases = (
+				49132A77235EEE9B0049CC3C /* Sources */,
+				49132A78235EEE9B0049CC3C /* Frameworks */,
+				49132A79235EEE9B0049CC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49132A7D235EEE9B0049CC3C /* PBXTargetDependency */,
+			);
+			name = CoupleCinemaUITests;
+			productName = CoupleCinemaUITests;
+			productReference = 49132A7B235EEE9B0049CC3C /* CoupleCinemaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49132A4A235EEE9A0049CC3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "张文轩";
+				TargetAttributes = {
+					49132A51235EEE9A0049CC3C = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					49132A6F235EEE9B0049CC3C = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 49132A51235EEE9A0049CC3C;
+					};
+					49132A7A235EEE9B0049CC3C = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 49132A51235EEE9A0049CC3C;
+					};
+				};
+			};
+			buildConfigurationList = 49132A4D235EEE9A0049CC3C /* Build configuration list for PBXProject "CoupleCinema" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49132A49235EEE9A0049CC3C;
+			productRefGroup = 49132A53235EEE9A0049CC3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49132A51235EEE9A0049CC3C /* CoupleCinema */,
+				49132A6F235EEE9B0049CC3C /* CoupleCinemaTests */,
+				49132A7A235EEE9B0049CC3C /* CoupleCinemaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49132A50235EEE9A0049CC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49132A68235EEE9A0049CC3C /* LaunchScreen.storyboard in Resources */,
+				49132A65235EEE9A0049CC3C /* Assets.xcassets in Resources */,
+				49132A60235EEE9A0049CC3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49132A6E235EEE9B0049CC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49132A79235EEE9B0049CC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C595FE3C7673B4413612A3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoupleCinema/Pods-CoupleCinema-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2926005211F78694316C538D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoupleCinema/Pods-CoupleCinema-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59AB21DA4430D34A8743F57B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoupleCinema-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49132A4E235EEE9A0049CC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49132A6B235EEE9A0049CC3C /* main.m in Sources */,
+				49132A57235EEE9A0049CC3C /* AppDelegate.m in Sources */,
+				49132A91235EEECC0049CC3C /* SignInVC.m in Sources */,
+				49132A63235EEE9A0049CC3C /* CoupleCinema.xcdatamodeld in Sources */,
+				49132A5A235EEE9A0049CC3C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49132A6C235EEE9B0049CC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49132A75235EEE9B0049CC3C /* CoupleCinemaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49132A77235EEE9B0049CC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49132A80235EEE9B0049CC3C /* CoupleCinemaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49132A72235EEE9B0049CC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49132A51235EEE9A0049CC3C /* CoupleCinema */;
+			targetProxy = 49132A71235EEE9B0049CC3C /* PBXContainerItemProxy */;
+		};
+		49132A7D235EEE9B0049CC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49132A51235EEE9A0049CC3C /* CoupleCinema */;
+			targetProxy = 49132A7C235EEE9B0049CC3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49132A5E235EEE9A0049CC3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49132A5F235EEE9A0049CC3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49132A66235EEE9A0049CC3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49132A67235EEE9A0049CC3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49132A82235EEE9B0049CC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49132A83235EEE9B0049CC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49132A85235EEE9B0049CC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742F8A36FDD7E57F53999D03 /* Pods-CoupleCinema.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = CoupleCinema/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zwx.CoupleCinema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49132A86235EEE9B0049CC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE37B0F657779A201752939 /* Pods-CoupleCinema.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = CoupleCinema/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zwx.CoupleCinema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49132A88235EEE9B0049CC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = CoupleCinemaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zwx.CoupleCinemaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoupleCinema.app/CoupleCinema";
+			};
+			name = Debug;
+		};
+		49132A89235EEE9B0049CC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = CoupleCinemaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zwx.CoupleCinemaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoupleCinema.app/CoupleCinema";
+			};
+			name = Release;
+		};
+		49132A8B235EEE9B0049CC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = CoupleCinemaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zwx.CoupleCinemaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoupleCinema;
+			};
+			name = Debug;
+		};
+		49132A8C235EEE9B0049CC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = CoupleCinemaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zwx.CoupleCinemaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoupleCinema;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49132A4D235EEE9A0049CC3C /* Build configuration list for PBXProject "CoupleCinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49132A82235EEE9B0049CC3C /* Debug */,
+				49132A83235EEE9B0049CC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49132A84235EEE9B0049CC3C /* Build configuration list for PBXNativeTarget "CoupleCinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49132A85235EEE9B0049CC3C /* Debug */,
+				49132A86235EEE9B0049CC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49132A87235EEE9B0049CC3C /* Build configuration list for PBXNativeTarget "CoupleCinemaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49132A88235EEE9B0049CC3C /* Debug */,
+				49132A89235EEE9B0049CC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49132A8A235EEE9B0049CC3C /* Build configuration list for PBXNativeTarget "CoupleCinemaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49132A8B235EEE9B0049CC3C /* Debug */,
+				49132A8C235EEE9B0049CC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		49132A61235EEE9A0049CC3C /* CoupleCinema.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				49132A62235EEE9A0049CC3C /* CoupleCinema.xcdatamodel */,
+			);
+			currentVersion = 49132A62235EEE9A0049CC3C /* CoupleCinema.xcdatamodel */;
+			path = CoupleCinema.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 49132A4A235EEE9A0049CC3C /* Project object */;
+}
